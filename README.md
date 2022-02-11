@@ -7,12 +7,12 @@ You must run the setup config command first to generate a GithubConfig.json file
 
 ## Setup
 
-.\BulkPullRequestApprover.exe config update --username "YourGitHubUsername" --pat "ghp_YourPATfromSETTINGS" --target-owner "UsernameOrOrganisation" --target-repo "repositoryName"
+`.\BulkPullRequestApprover.exe config update --username "YourGitHubUsername" --pat "ghp_YourPATfromSETTINGS" --target-owner "UsernameOrOrganisation" --target-repo "repositoryName"`
 
 ## Mass Approve & Merge
 
-.\BulkPullRequestApprover.exe prs merge
+`.\BulkPullRequestApprover.exe prs merge`
 
 ## Mass Close
 
-.\BulkPullRequestApprover.exe prs close
+`.\BulkPullRequestApprover.exe prs close`
